@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cheat Base Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{5b6b0dfa-c72a-4f67-8575-f868fb09d8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{b1bcc558-a90f-48b1-a3f1-a8b5d1e1c326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\cpp">
+      <UniqueIdentifier>{4231deb6-2bea-4cdd-a45b-3d8a417aa011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\h">
+      <UniqueIdentifier>{77122ceb-d80f-4014-8550-8606284f503d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{bfe833ec-f037-4b28-b1d2-013d05878097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption\Game">
+      <UniqueIdentifier>{a320c35c-1ae1-4313-8e95-fc7bee608af3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Cheat Base Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_demo.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_draw.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\backends\imgui_impl_dx9.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_tables.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_widgets.cpp">
+      <Filter>ImGui\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imconfig.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\backends\imgui_impl_dx9.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\backends\imgui_impl_win32.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imgui_internal.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imstb_rectpack.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imstb_textedit.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui-master\imstb_truetype.h">
+      <Filter>ImGui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.hpp">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Encryption\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
